@@ -1,0 +1,4 @@
+DVD Fingerprint
+===============
+
+Generates a fingerprint for use with [disc ident](http://discident.com/ "Disc Ident"). Works by traversing a directory (from a DVD drive, or ripped) and creating a unique hash for that disc.
