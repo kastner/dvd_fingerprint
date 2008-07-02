@@ -15,6 +15,11 @@ module DVDFingerprint
   def combine_files(paths)
     paths.sort.join(":")
   end
+  
+  def fingerprint(path)
+    paths = get_paths(path)
+    combine_files(paths)
+  end
 end
 
 if $0 == __FILE__
