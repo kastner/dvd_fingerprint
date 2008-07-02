@@ -18,7 +18,8 @@ module DVDFingerprint
   
   def fingerprint(path)
     paths = get_paths(path)
-    combine_files(paths)
+    string = combine_files(paths)
+    generate_hash(string)
   end
 end
 
