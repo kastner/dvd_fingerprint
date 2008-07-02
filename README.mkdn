@@ -6,7 +6,7 @@ Generates a fingerprint for use with [disc ident](http://discident.com/ "Disc Id
 Usage
 -----
 
-  require 'rubygems'
-  require 'dvd_fingerprint-kastner'
-  
-  DVDFingerprint.fingerprint("/Volumes/DVD_VIDEO/")
+	require 'rubygems'
+	require 'dvd_fingerprint-kastner'
+
+	DVDFingerprint.fingerprint("/Volumes/DVD_VIDEO/")
