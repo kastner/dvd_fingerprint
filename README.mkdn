@@ -7,6 +7,6 @@ Usage
 -----
 
 	require 'rubygems'
-	require 'dvd_fingerprint-kastner'
+	require 'kastner-dvd_fingerprint'
 
 	DVDFingerprint.fingerprint("/Volumes/DVD_VIDEO/")
